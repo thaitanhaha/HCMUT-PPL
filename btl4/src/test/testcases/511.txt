@@ -1,0 +1,11 @@
+
+        func foo(number a)
+        begin
+            return 2
+        end
+        func main()
+        begin
+            number x <- foo(1)
+            writeNumber(x)
+        end
+        

@@ -1,0 +1,8 @@
+
+        dynamic x
+        func main()
+        begin
+            x <- (1+1 = 2)
+            writeBool(not x)
+        end
+        

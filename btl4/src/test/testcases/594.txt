@@ -1,0 +1,7 @@
+
+        string a[1] <- ["1"]
+        func main()
+        begin
+            writeString("GenG" ... a[0])
+        end
+        

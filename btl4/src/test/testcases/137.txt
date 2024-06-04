@@ -1,0 +1,7 @@
+
+        func checkNumber(number a, number b) return a = b
+        func main()
+        begin
+            writeBool(checkNumber(1, 1))
+        end
+        

@@ -1,0 +1,17 @@
+
+        func main()
+        begin
+            number a[7]
+            a[0] <- 1
+            a[1] <- 1
+            number i <- 2
+            for i until i=7 by 1
+                a[i] <- a[i-1] + a[i-2]
+            i <- 0
+            for i until i=7 by 1
+            begin
+                writeNumber(a[i])
+                writeString(" ")
+            end
+        end
+        

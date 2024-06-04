@@ -1,0 +1,6 @@
+
+        func main()
+        begin
+            writeBool(not not not not not not false and true or not true and false or true and not false)
+        end
+        

@@ -1,0 +1,21 @@
+
+        number a[3] <- [1,1,1]
+        func sum_1(number b[3])
+        begin
+            number i <- 0
+            for i until i=3 by 1
+                b[i] <- b[i] + 1
+            number sum <- 0
+            i <- 0
+            for i until i=3 by 1
+                sum <- sum + b[i]
+            return sum
+        end
+        func main()
+        begin
+            writeNumber(sum_1(a))
+            number i <- 0
+            for i until i=3 by 1
+                writeNumber(a[i])
+        end
+        

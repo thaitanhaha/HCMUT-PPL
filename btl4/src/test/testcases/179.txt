@@ -1,0 +1,11 @@
+
+        func main()
+        begin
+            bool a[2] <- [true, false]
+            if (a[0] and a[1]) writeNumber(1)
+            else writeString("abc")
+
+            var x <- true
+            writeBool(x)
+        end
+        

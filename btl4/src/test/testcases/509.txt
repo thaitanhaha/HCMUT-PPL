@@ -1,0 +1,8 @@
+
+        var a <- 11
+        func main()
+        begin
+            dynamic b <- 12
+            writeNumber(a + b)
+        end
+        

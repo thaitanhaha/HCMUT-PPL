@@ -1,0 +1,11 @@
+
+        func isOdd(number n)
+        begin
+            if (n % 2 = 0) return false
+            return true
+        end
+        func main()
+        begin
+            writeBool(isOdd(1))
+        end
+        

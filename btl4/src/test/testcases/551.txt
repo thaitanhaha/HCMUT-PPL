@@ -1,0 +1,11 @@
+
+        func main()
+        begin
+            string a[5] <- ["#####", "####", "###", "##", "#"]
+            number i <- 0
+            string result <- ""
+            for i until i >= 5 by 1
+                result <- result ... a[i]
+            writeString(result)
+        end
+        

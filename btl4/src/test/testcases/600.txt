@@ -1,0 +1,20 @@
+
+        func foo() return
+        func a() 
+        begin
+            if (true) return
+        end
+        func b() 
+        begin
+            number i <- 1
+            for i until i<10 by 1
+                return
+        end
+        func main()
+        begin
+            foo()
+            a()
+            b()
+            return
+        end
+        

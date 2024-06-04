@@ -1,0 +1,10 @@
+number a <- 1
+        number c <- 2
+        func main()
+        begin
+            number b <- 3
+            writeNumber(a)
+            writeNumber(c)
+            writeNumber(b)
+        end
+        

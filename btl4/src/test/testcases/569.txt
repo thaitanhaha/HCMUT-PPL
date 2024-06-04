@@ -1,0 +1,9 @@
+
+        number a[3] <- [1,2,3]
+        number b[3] <- [a[0], a[1], a[2]]
+        func main()
+        begin
+            b[0] <- 10
+            writeNumber(a[0])
+        end
+        

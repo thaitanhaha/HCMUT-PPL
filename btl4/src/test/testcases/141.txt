@@ -1,0 +1,15 @@
+
+        func factorial(number n)
+        begin
+            if (n = 0) return 1
+            number i <- 1
+            number sum <- 1
+            for i until i > n by 1
+                sum <- sum * i
+            return sum
+        end
+        func main()
+        begin
+            writeNumber(factorial(5))
+        end
+        

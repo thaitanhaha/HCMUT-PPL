@@ -1,0 +1,11 @@
+
+        func main()
+        begin
+            var a <- 1
+            writeNumber(a)
+            var b <- "hi"
+            writeString(b)
+            var c <- true
+            writeBool(c)
+        end
+        

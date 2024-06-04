@@ -1,0 +1,10 @@
+
+        number a <- 5
+        func main()
+        begin
+            number a <- 15
+            number b <- 5
+            writeNumber(a)
+
+        end
+        

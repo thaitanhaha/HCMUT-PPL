@@ -1,0 +1,11 @@
+
+        func printOdd(number n)
+        begin
+            for n until n > 10 by 1
+                if (n % 2 = 1) writeNumber(n)
+        end
+        func main()
+        begin
+            printOdd(1)
+        end
+        

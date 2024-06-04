@@ -1,0 +1,11 @@
+
+        func foo(string x, string y)
+        func main()
+        begin
+            writeString(foo("abc", "abc"))
+        end
+        func foo(string x, string y)
+        begin
+            return x ... y
+        end
+        

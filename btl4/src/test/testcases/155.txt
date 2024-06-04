@@ -1,0 +1,11 @@
+
+        func test(number a) return a
+        func test1()
+        begin
+            writeNumber(test(1))
+        end
+        func main()
+        begin
+            test1()
+        end
+        

@@ -1,0 +1,9 @@
+
+        func main()
+        begin
+            string a[5] <- ["#####", "####", "###", "##", "#"]
+            number i <- 0
+            for i until i >= 5 by 1
+                writeString(a[i])
+        end
+        

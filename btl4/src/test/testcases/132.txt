@@ -1,0 +1,7 @@
+
+        func concatString(string a, string b) return a ... b
+        func main()
+        begin
+            writeString(concatString("1.0", "abc"))
+        end
+        

@@ -1,0 +1,12 @@
+
+        func foo()
+        begin
+            begin
+                return true
+            end
+        end
+        func main()
+        begin
+            writeBool(foo())
+        end
+        

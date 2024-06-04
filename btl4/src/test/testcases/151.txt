@@ -1,0 +1,11 @@
+
+        func isOddOrEven(number n)
+        begin
+            if (n % 2 = 0) writeString("even")
+            else writeString("odd")
+        end
+        func main()
+        begin
+            isOddOrEven(1)
+        end
+        

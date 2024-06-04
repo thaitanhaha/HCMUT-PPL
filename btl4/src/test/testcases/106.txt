@@ -1,0 +1,7 @@
+
+        number a <- (-3 * 10 + 3) / 10
+        func main()
+        begin
+            writeNumber(a)
+        end
+        

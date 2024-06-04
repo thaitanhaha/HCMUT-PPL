@@ -1,0 +1,17 @@
+
+        func foo()
+        begin
+            number i <- 0
+            for i until i=10 by 1
+            begin
+                if (i=10) return 10
+                elif (i=8) break
+            end
+            return i
+        end
+        func main()
+        begin
+            number a <- foo()
+            writeNumber(a)
+        end
+        

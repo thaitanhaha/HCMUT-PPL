@@ -1,0 +1,8 @@
+
+        number b <- -1
+        func main()
+        begin
+            number a <- -2
+            writeNumber(a + 10*-b - 1)
+        end
+        

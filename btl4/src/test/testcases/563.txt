@@ -1,0 +1,13 @@
+
+        number a <- 1
+        number b <- 2
+        func foo(number a, number b)
+        begin   
+            return a + b
+        end
+        number c <- foo(a, b)
+        func main()
+        begin
+            writeNumber(c)
+        end
+        

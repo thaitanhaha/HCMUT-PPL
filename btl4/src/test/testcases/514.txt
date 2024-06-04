@@ -1,0 +1,16 @@
+
+        dynamic x
+        dynamic y
+        func foo()
+        begin
+            x <- 1
+            dynamic a 
+            a <- x + 3
+            return a
+        end
+        func main()
+        begin
+            y <- foo()
+            writeNumber(y)
+        end
+        

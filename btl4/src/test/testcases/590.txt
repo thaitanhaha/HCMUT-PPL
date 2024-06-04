@@ -1,0 +1,7 @@
+
+        func main()
+        begin
+            bool a <- true
+            writeBool((a and false) or (true or false))
+        end
+        

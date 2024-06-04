@@ -1,0 +1,10 @@
+
+        func main()
+        begin
+            bool a[2] <- [true, false]
+            number b[2] <- [1, 2]
+            if (a[0]) writeNumber(b[0])
+            elif (a[1]) writeNumber(b[1])
+            else writeString("tan")
+        end
+        

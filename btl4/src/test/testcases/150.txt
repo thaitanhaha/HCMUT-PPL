@@ -1,0 +1,10 @@
+
+        func calcAndPrint(number a, number b) 
+        begin
+            writeNumber(a + b)
+        end
+        func main()
+        begin
+            calcAndPrint(1, 2)
+        end
+        

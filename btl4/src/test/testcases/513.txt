@@ -1,0 +1,14 @@
+
+        func foo()
+        begin
+            number x <- 1
+            dynamic a 
+            a <- x + 2
+            return a
+        end
+        func main()
+        begin
+            dynamic x <- foo()
+            writeNumber(x)
+        end
+        

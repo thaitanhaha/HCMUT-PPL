@@ -1,0 +1,18 @@
+
+        func a() 
+        begin
+            number a <- 2
+            for a until a > 3 by 1
+            begin
+                if (a = 2)
+                begin
+                    return a
+                end 
+            end
+            return 100
+        end
+        func main()
+        begin
+            writeNumber(a())
+        end
+        

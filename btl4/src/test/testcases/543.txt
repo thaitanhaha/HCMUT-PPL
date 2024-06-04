@@ -1,0 +1,27 @@
+
+        func foo()
+        begin
+            number i <- 0
+            number a[2,3]
+            for i until i=2 by 1
+            begin
+                number j <- 0   
+                for j until j=3 by 1
+                    a[i,j] <- i*j
+            end
+            return a
+        end
+        func main()
+        begin
+            number i <- 0
+            for i until i=2 by 1
+            begin
+                number j <- 0   
+                for j until j=3 by 1
+                begin
+                    writeNumber(foo()[i,j])
+                    writeString(" ")
+                end
+            end
+        end
+        

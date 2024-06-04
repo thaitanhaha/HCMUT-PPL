@@ -1,0 +1,19 @@
+
+        func foo()
+        begin
+            number i <- 0
+            for i until i=10 by 1
+            begin
+                if (i=3)
+                    return [[i,i], [i,i]]
+            end
+        end
+        number y[2,2]
+        func main()
+        begin
+            dynamic x
+            x <- foo()
+            y <- foo()
+            writeNumber(x[0,0] + y[1,1])
+        end
+        

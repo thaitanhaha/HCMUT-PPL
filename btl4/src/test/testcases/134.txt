@@ -1,0 +1,17 @@
+
+        func isPrime(number n)
+        begin
+            if (n < 2) return false
+            number i <- 2
+            for i until i * i > n by 1
+                if (n % i = 0) return false
+            return true
+        end
+        func main()
+        begin
+            writeBool(isPrime(1))
+            writeBool(isPrime(2))
+            writeBool(isPrime(3))
+            writeBool(isPrime(4))
+        end
+        

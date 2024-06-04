@@ -1,0 +1,9 @@
+
+        func main()
+        begin
+            number b <- 3
+            if (b = 2) writeNumber(1)
+            elif (b = 3) writeString("abc")
+            else writeNumber(2)
+        end
+        

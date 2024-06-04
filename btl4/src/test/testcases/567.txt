@@ -1,0 +1,14 @@
+
+        number a[3] <- [1,2,3]
+        number b[3] <- a
+        func foo(number a[3], number b[3])
+        begin
+            return a[0] + a[1] + a[2] + b[0] + b[1] + b[2]
+        end
+        number c <- foo(a, b)
+        func main()
+        begin
+            writeNumber(c)
+            return
+        end
+        

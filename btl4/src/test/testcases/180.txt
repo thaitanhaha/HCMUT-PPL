@@ -1,0 +1,10 @@
+
+        func haha()
+        begin
+            writeString("haha")
+        end
+        func main()
+        begin
+            haha()
+        end
+        

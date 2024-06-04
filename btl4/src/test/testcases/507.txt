@@ -1,0 +1,14 @@
+
+        func foo() 
+        begin
+            number b <- 1
+            if (b < 2) return 10
+            elif (b > 3) return 11
+            else return 12
+        end
+        func main()
+        begin
+            number a <- foo()
+            writeNumber(a)
+        end
+        

@@ -1,0 +1,7 @@
+
+        func compareString(string a, string b) return a == b
+        func main()
+        begin
+            writeBool(compareString("1.0", "abc"))
+        end
+        

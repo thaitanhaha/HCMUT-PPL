@@ -1,0 +1,8 @@
+
+        func main()
+        begin
+            number a <- 1
+            bool b <- (a=1)
+            writeBool(not (b and false))
+        end
+        

@@ -1,0 +1,14 @@
+
+        func main()
+        begin
+            number i <- 1
+            number a
+            for i until i = 5 by 1
+            begin
+                a <- i
+                writeNumber(a)
+                writeString("\n")
+            end
+            writeNumber(a)
+        end
+        

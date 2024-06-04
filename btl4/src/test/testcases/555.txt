@@ -1,0 +1,15 @@
+
+        func foo(number a, number b[3])
+        begin
+            number c[3] <- [1,2,3]
+            number i <- 0
+            for i until i=3 by 1
+                b[i] <- c[i] + a
+        end 
+        func main()
+        begin
+            number a[3] <- [0,0,0]
+            foo(1, a)
+            writeNumber(a[0])
+        end
+        

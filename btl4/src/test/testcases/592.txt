@@ -1,0 +1,12 @@
+
+        dynamic x
+        func foo()
+        begin
+            x <- [1,2,3]
+        end
+        func main()
+        begin
+            foo()
+            writeNumber(x[0] * 10)
+        end
+        

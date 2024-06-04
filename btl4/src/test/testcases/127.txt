@@ -1,0 +1,7 @@
+
+        func f() return true
+        func main()
+        begin
+            writeBool(f())
+        end
+        

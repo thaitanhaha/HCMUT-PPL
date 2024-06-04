@@ -1,0 +1,16 @@
+
+        func foo()
+        begin
+            number i <- 0
+            for i until i=10 by 1
+            begin
+                if (i=12) return i
+            end
+            return i
+        end
+        func main()
+        begin
+            number a <- foo() + foo() + foo() + foo() * 1 + 1
+            writeNumber(a)
+        end
+        

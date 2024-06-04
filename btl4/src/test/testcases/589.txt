@@ -1,0 +1,7 @@
+
+        bool x[2,2] <- [[true, true], [false, false]]
+        func main()
+        begin
+            writeBool(x[0,0])
+        end
+        

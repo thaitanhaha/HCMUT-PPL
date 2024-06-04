@@ -1,0 +1,20 @@
+
+        func foo() 
+        begin
+            string a <- "1"
+            string b <- "2"
+            return [a,b,"3"]
+        end
+
+        func main()
+        begin
+            dynamic x
+            x <- foo()
+            number i <- 0
+            for i until i = 3 by 1
+            begin
+                writeString(x[i])
+                writeString(" ")
+            end
+        end
+        

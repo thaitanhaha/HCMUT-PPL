@@ -1,0 +1,7 @@
+
+        func f(number a) return 2 + a
+        func main()
+        begin
+            writeNumber(f(2)) 
+        end
+        

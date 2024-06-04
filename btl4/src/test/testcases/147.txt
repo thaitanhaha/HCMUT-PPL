@@ -1,0 +1,7 @@
+
+        func test(number c) return c * 2
+        func main()
+        begin
+            writeNumber(test(1))
+        end
+        

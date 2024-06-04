@@ -1,0 +1,14 @@
+
+        func foo()
+        begin
+            number i <- 0
+            number j <- 0   
+            for i until i=10 by 1
+                for j until j=10 by 1
+                    return true
+        end
+        func main()
+        begin
+            writeBool(foo())
+        end
+        

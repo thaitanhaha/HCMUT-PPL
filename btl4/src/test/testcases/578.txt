@@ -1,0 +1,20 @@
+
+        func foo(number x[3])
+        func main()
+        begin
+            writeNumber(foo([1, 2, 3]))
+        end
+        func foo(number y[3])
+        begin
+            dynamic x
+            x <- [0, 0, 0]
+            number i <- 0
+            var sum <- 0
+            for i until i=3 by 1
+            begin
+                x[i] <- y[3-i-1]
+                sum <- sum + x[i]
+            end
+            return sum + i
+        end
+        

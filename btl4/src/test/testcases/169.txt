@@ -1,0 +1,10 @@
+
+        func cucu()
+        begin
+            writeString("Hello World")
+        end
+        func main()
+        begin
+            cucu()
+        end
+        

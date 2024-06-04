@@ -1,0 +1,13 @@
+
+        dynamic a
+        func foo()
+        begin
+            a <- [[10,20,30]]
+            return a
+        end
+        func main()
+        begin
+            number x <- (foo())[0,2]
+            writeNumber(x)
+        end
+        

@@ -1,0 +1,14 @@
+
+        func foo()
+        begin
+            number b <- 1
+            for b until b > 5 by 1 
+                return 1
+            return 2
+        end
+        func main()
+        begin
+            number a <- foo()
+            writeNumber(a)
+        end
+        

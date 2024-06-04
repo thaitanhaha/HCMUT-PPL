@@ -1,0 +1,25 @@
+
+        func main()
+        begin
+            number a <- 1
+            number b <- 2
+            for a until a > b by 1
+                if (a = 1) 
+                begin
+                    writeNumber(a)
+                    break
+                end
+                elif (a = 2)
+                begin
+                    writeNumber(a)
+                    break
+                end
+                elif (a = 3)
+                begin
+                    writeNumber(a)
+                    break
+                end
+                else
+                    writeString("abc")
+        end
+        

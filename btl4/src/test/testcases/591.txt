@@ -1,0 +1,7 @@
+
+        func main()
+        begin
+            number a <- 3.14
+            writeNumber(a * 2)
+        end
+        

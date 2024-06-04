@@ -1,0 +1,12 @@
+
+        func main()
+        begin
+            number a[3] <- [1, 2, 3]
+            number i <- 0
+            for i until i > 2 by 1
+            begin
+                writeNumber(a[i])
+                writeString(";")
+            end
+        end
+        

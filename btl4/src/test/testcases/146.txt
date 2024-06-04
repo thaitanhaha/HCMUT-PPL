@@ -1,0 +1,6 @@
+
+        func main()
+        begin
+            writeNumber(23 * 2)
+        end
+        

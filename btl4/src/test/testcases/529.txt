@@ -1,0 +1,12 @@
+
+        func main()
+        begin
+            number i <- 1
+            for i until i >= 10 by 1
+            begin
+                if (i % 2 = 0) continue
+                writeNumber(i)
+                writeString("\n")
+            end
+        end
+        

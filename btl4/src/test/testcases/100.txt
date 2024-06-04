@@ -1,0 +1,8 @@
+
+        number i <- 1
+        func main ()
+        begin
+            i <- 2
+            writeNumber(i)
+        end
+        

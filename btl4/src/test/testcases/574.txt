@@ -1,0 +1,12 @@
+
+        number a[2,3] <- [[1,2,3], [4,5,6]]
+        func foo()
+            return a
+        dynamic b
+        func main()
+        begin
+            b <- foo()
+            b[0,0] <- 10
+            writeNumber(a[0,0])
+        end
+        

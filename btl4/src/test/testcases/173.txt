@@ -1,0 +1,7 @@
+
+        func main()
+        begin
+            string a[2] <- ["1.0", "abc"]
+            writeString(a[0])
+        end
+        

@@ -1,0 +1,15 @@
+
+        func main()
+        begin
+            string a[7] <- ["t", "h", "a", "i", "t", "a", "n"]
+            number i <- 0
+            string b[7]
+            for i until i = 7 by 1
+                b[i] <- a[i]
+            i <- 0
+            for i until i = 7 by 1
+            begin
+                writeString(b[i])
+            end
+        end
+        

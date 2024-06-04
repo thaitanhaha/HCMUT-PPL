@@ -1,0 +1,12 @@
+
+        func main()
+        begin
+            number i <- 0
+            for i until i > 10 by 1
+            begin
+                if (i = 4) break
+            end
+            writeNumber(i)
+            
+        end
+        

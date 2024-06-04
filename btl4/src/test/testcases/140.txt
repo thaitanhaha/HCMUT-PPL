@@ -1,0 +1,11 @@
+
+        func isEven(number n)
+        begin
+            if (n % 2 = 0) return true
+            return false
+        end
+        func main()
+        begin
+            writeBool(isEven(1))
+        end
+        

@@ -1,0 +1,14 @@
+
+        func add(number a)
+        begin
+            if (a = 5) return 1
+            else return 2
+        end
+        func main()
+        begin
+            number a <- 6
+            writeNumber(add(a))
+            if (a = 5) writeNumber(1)
+            else writeNumber(0)
+        end
+        

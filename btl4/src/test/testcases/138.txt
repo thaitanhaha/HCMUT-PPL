@@ -1,0 +1,8 @@
+
+        func equation(number a, number b, number c)
+            return (c - b) / a          
+        func main()
+        begin
+            writeNumber(equation(1, 2, 5))
+        end
+        

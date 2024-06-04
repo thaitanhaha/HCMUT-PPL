@@ -1,0 +1,23 @@
+
+        func a() 
+        begin
+            number a <- 2
+            if (a = 1) 
+            begin 
+                return 3
+            end
+            elif (a = 2)
+            begin
+                return 5
+            end
+            else 
+            begin 
+                return 4
+            end
+        end
+        func main()
+        begin
+            number a <- a()
+            writeNumber(a)
+        end
+        

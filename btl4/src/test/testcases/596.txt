@@ -1,0 +1,12 @@
+
+        dynamic x
+        func foo(number x[1])
+        begin
+            writeNumber(x[0])
+        end
+        func main()
+        begin
+            x <- [1]
+            foo(x)
+        end
+        

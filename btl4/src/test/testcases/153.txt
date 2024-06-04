@@ -1,0 +1,12 @@
+
+        func main()
+        begin
+            number b <- 1
+            if (b = 1) writeNumber(1)
+            elif (b = 2) writeNumber(2)
+            elif (b = 3) writeNumber(3)
+            elif (b = 4) writeNumber(4)
+            else writeString("abc")
+
+        end
+        

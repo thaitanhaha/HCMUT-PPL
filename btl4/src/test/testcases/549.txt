@@ -1,0 +1,11 @@
+
+        func foo (number a, string b)
+        begin
+            if (a = 1) return b
+            return b ... "a"
+        end
+        func main()
+        begin
+            writeString(foo(10000, "a"))
+        end
+        

@@ -1,0 +1,15 @@
+
+        func foo(number a)
+        begin
+            var i <- a % 5
+            for i until i >= a by 1
+            begin
+                if (i = 5) return i
+            end
+        end
+        func main()
+        begin
+            number a <- 10
+            writeNumber(foo(a))
+        end
+        

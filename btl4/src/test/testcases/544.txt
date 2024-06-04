@@ -1,0 +1,19 @@
+
+        func main()
+        begin
+            number i <- 0
+            for i until i=10 by 1
+            begin
+                number j <- 0   
+                for j until j=10 by 1
+                begin
+                    if (j=2) break
+                    writeNumber(j)
+                    writeString(" ")
+                end
+                if (i=3) break
+                writeNumber(i)
+                writeString("\n")
+            end
+        end
+        
